@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.typekit.net/fgh7brx.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js" defer></script>
+    <title>The Dream Destination</title>
+</head>
+<body>
+    <div id="skip">
+        <a href="#about">Skip to Main Content</a>
+        </div>
+    <header class="background">
+        <nav>
+            <ul class="nav_links" id="sidenav">
+                <li class="nav_item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+                <li class="nav_item"><a href="index.html" class="current" aria-label="Home">HOME</a></li>
+                <li class="nav_item"><a href="travel.html">TRAVEL</a></li>
+                <li class="nav_item"><a href="hiking.html">HIKING</a></li>
+                <li class="nav_item"><a href="food.html">FOOD</a></li>
+            </ul>
+            <ul class="nav_links" id="special">
+                <li class="nav_item"><a href="index.html" class="current" aria-label="Home">HOME</a></li>
+                <li class="nav_item"><a href="travel.html">TRAVEL</a></li>
+                <li class="nav_item"><a href="hiking.html">HIKING</a></li>
+                <li class="nav_item"><a href="food.html">FOOD</a></li>
+            </ul>
+        </nav>
+        
+         <!-- <span onclick="openNav()">open</span> -->
+         <div class="main-title">
+            <h1>ICELAND</h1>
+            <div class="subtitle"><p>The Dream Destination</p>
+                <div class="dots">
+                <span class="w3-badge"  onclick="currentDiv(0)"></span>
+                <span class="w3-badge"  onclick="currentDiv(1)"></span>
+                <span class="w3-badge"  onclick="currentDiv(2)"></span>
+            </div>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="openNav()" aria-label="Drop down list button">
+            <i class="fa fa-bars fa-2x"> </i>
+          </a>
+            <!-- <div class="main-title">
+                <h1>ICELAND</h1>
+                <p class="subtitle">The Dream Destination</p>
+            </div> -->
+            <!-- Next and previous buttons -->
+            
+        
+        
+        
+    </header>
+    <main id="home">
+<!-- About Ice Land -->
+        <section class="grid-container">
+            <div id="about">
+                <h2>About Iceland</h2>
+                <img src="img/Iceland-townhouse.jpg" alt="Iceland Townhouse">
+                <div class="text-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy diam nonummy...</div>
+                <p class="btn">More<p>
+            </div>
+<!-- History -->
+            <div id="history">
+                <h2>History</h2>
+                <img src="img/history.jpg" alt="Iceland History">
+                <div class="text-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy diam nonummy...</div>
+                <p class="btn">More<p>
+            </div>
+        <!-- food -->
+            <div id="foodie">
+                <h2>Food</h2>
+                <img src="img/Iceland-pancake.jpg" alt="food">
+                <div class="text-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy diam nonummy...</div>
+                <p class="btn">More<p>
+            </div>
+<!-- Location -->
+            <div id="location">
+                <h2>Location</h2>
+                <img src="img/location.jpg" alt="Location">
+            </div>
+           
+        </section>
+<!-- Contact -->
+            <div id="contact">
+                <h2>Contact</h2>
+                <form action="https://formspree.io/f/xayljkgy" method="POST">
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" aria-label="name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" aria-label="email" required>
+                    </div>
+                    <div class="form-control">
+                        <input type ="text" name="message" placeholder="Message" aria-label="message" required>
+                    </div>
+                    <button type='submit' value="send" class="send-btn">SEND</button>
+                </form>
+            </div>
+        
+
+
+    </main>
+<!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="contact">
+                <div class="social">
+                    <a href="https://www.tiktok.com/en/" aria-label="tiktok"><i class="fab fa-tiktok fa-2x"></i></a>
+                    <a href="https://www.facebook.com/" aria-label="facebook"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://www.instagram.com/" aria-label="instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://twitter.com/" aria-label="twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                </div>
+                <div class="email number">
+                    <p>iceland000@gmail.com <br/>
+                        +1 520-123-4567</p>
+                </div>
+            </div>
+            <div class="signature">
+                <p>&copy; Shuang Li - Web Design 2021</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
